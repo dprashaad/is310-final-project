@@ -29,17 +29,3 @@ for url in cleanurl:
 
 outfile.close()
 
-# outfileagain=open('allscripts.txt', 'r', encoding='utf-8')  #using r uses an existing file bc it's reading it, not creating it
-# reading=outfileagain.read()
-# soup=BeautifulSoup(reading, features="html.parser")
-#
-# newfile=open('cleanscripts.txt', 'w', encoding='utf-8')
-
-
-# justscript=soup.find_all('pre')
-# script=str(justscript)
-#
-# newfile.write(script)
-# outfileagain.close()
-# print('done')
-# newfile.close()
